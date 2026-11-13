@@ -1,0 +1,12 @@
+diff --git a/base/update/sys_installer/bundle.json b/base/update/sys_installer/bundle.json
+--- a/base/update/sys_installer/bundle.json
++++ b/base/update/sys_installer/bundle.json
+@@ -50,6 +50,7 @@
+       "sub_component": [
+         "//base/update/sys_installer/frameworks/ipc_server:sys_installer",
+         "//base/update/sys_installer/frameworks/ipc_server/etc:sys_installer_etc",
+-        "//base/update/sys_installer/frameworks/ipc_server/sa_profile:sys_installer_sa_profile"
++        "//base/update/sys_installer/frameworks/ipc_server/sa_profile:sys_installer_sa_profile",
++        "//base/update/sys_installer/services/module_update/src:check_module_update"
+       ],
+       "inner_kits": [
